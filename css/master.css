@@ -206,6 +206,7 @@ a:hover {
 
 .nav {
   margin-bottom: 30px;
+  
 }
 
 .nav__title {
@@ -225,12 +226,14 @@ a:hover {
 
 .nav__subtitle {
   padding: 5px 15px;
+  
 }
 
 .nav__list {
   padding: 0;
 
   list-style: none;
+  position:-webkit-sticky; position:sticky; top: 10px;
 }
 
 .nav__item,
